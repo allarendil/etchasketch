@@ -3,16 +3,23 @@ body {
     display: flex;
 }
 
-
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+	padding: none;
+}
 
 .container {
     border: solid white 5px;
     margin: auto;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    width: 500px;
-	padding: 10px;
+    height: 700px;
+    width: 700px;
+	padding: none;
 	border: solid pink 5px;
     display: grid;
     grid-template-columns: repeat(16, 1fr);
@@ -23,8 +30,24 @@ body {
 .grid {
     margin:none;
 	padding:none;
-	height: 10px;
-    width: 10px;
+	height: 30px;
+    width: 30px;
     border: dotted white;
+}
+
+button {
+    margin: 20px;
+    padding : 20px;
+    color: pink;
+    background-color: black;
+    border: solid white 5px;
+    border-radius: 5;
+    justify-content: center;
+    align-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size: large;
+    height: auto;
+    width: 700px;
 }
 

@@ -20,4 +20,8 @@ const grids = document.querySelectorAll('.grid')
     });
 });
 
+//function clear() {
+//    reload();
+//};
+
 
