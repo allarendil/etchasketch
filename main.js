@@ -10,3 +10,14 @@ function createGrid(num) {
 };
 
 createGrid(16);
+
+const grids = document.querySelectorAll('.grid')
+ 
+    grids.forEach((div) => {
+    div.addEventListener(
+    'mouseover', function () {
+        div.style.backgroundColor = 'green';
+    });
+});
+
+
